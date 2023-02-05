@@ -1,0 +1,229 @@
+/* Fonts */
+
+* {
+    Font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Electrolize', sans-serif;
+}
+
+/* Colors */
+
+:root {
+    --col-1: rgb(6, 57, 108);
+    --col-2: white;
+    --col-3: rgb(11, 11, 11);
+}
+
+.color1 {
+    color: var(--col-1);
+}
+
+.color2 {
+    color: var(--col-2) !important;
+}
+
+.color3 {
+    color: var(--col-3);
+}
+
+.bg-col1 {
+    background-color: var(--col-1);
+}
+
+.bg-col2 {
+    background-color: var(--col-2);
+}
+
+.bg-col3 {
+    background-color: var(--col-3);
+}
+
+/* Header */
+
+.custom-bg-img-hd {
+    background-image: linear-gradient(rgb(6, 57, 108,0.5),rgb(6, 57, 108, 0.5)), url(./media/header.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.custom-h-hd {
+    height: 100%
+}
+
+/* Navbar */
+
+.custom-logo {
+    height: 30px;
+}
+
+/*  Header 3 */
+
+.custom-bg-img-pp {
+    background-image: linear-gradient(rgb(6, 57, 108,0.5),rgb(6, 57, 108, 0.5)), url(./media/power-plant-4712830_1280.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Section 1 */
+
+.custom-panel {
+    width: 80%;
+}
+
+.custom-div {
+    border: solid 3px var(--col-2);
+    position: absolute;
+    top: -40px;
+    left: 50px;
+}
+
+.custom-div-2 {
+    position: absolute;
+    right: 120px;
+    z-index: 1;
+}
+
+/* Spacer */
+
+.spacer-sec {
+    height: 750px;
+}
+
+/* Description */
+
+.des-custom-btn {
+    width: 200px;
+    height: 40px;
+}
+
+/* Section Cards */
+
+.cards-custom1 {
+    background-image: url(./media-cards/Sacramento.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cards-custom2 {
+    background-image: url(./media-cards/index-carson.city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cards-custom3 {
+    background-image: url(./media-cards/blue-sky-albany.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cards-custom4 {
+    background-image: url(./media-cards/917d7ff6122386c4403f32bdf6378a20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cards-custom-bg::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    height: 169px;
+    width: 550px;
+    background-image: linear-gradient(to left,rgb(6, 57, 108,0),rgb(6, 57, 108, 0.3));
+    z-index: 1;
+}
+
+/* Some Stuff */
+
+.stuff-bg-img1 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/sun.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.stuff-bg-img2 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/wind.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stuff-bg-img3 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stuff-bg-img4 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/gas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stuff-bg-img5 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/oil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stuff-bg-img6 {
+    background-image: linear-gradient(rgb(6, 57, 108,0),rgb(6, 57, 108, 0.8)), url(./media/nuclear.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.position-absolute-custom {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+}
+
+/* Spacer 2 */
+
+.spacer-2 {
+    height: 300px;
+}
+
+/* Download */
+
+.graphic-1 {
+    width: 20%;
+    border: solid 3px var(--col-1);
+}
+
+.graphic-2 {
+    width: 40%;
+    border: solid 3px var(--col-1);
+}
+
+.graphic-3 {
+    width: 60%;
+    border: solid 3px var(--col-1);
+}
+
+.graphic-4 {
+    width: 80%;
+    border: solid 3px var(--col-1);
+}
+
+.graphic-5 {
+    width: 60%;
+    border: solid 3px var(--col-1);
+}
+
+/* Footer */
+
+.div-footer-custom {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+}
